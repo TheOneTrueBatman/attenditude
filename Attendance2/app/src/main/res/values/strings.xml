@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Attenditude</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_student_login">StudentLogin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="todo1">TODO</string>
+    <string name="Register_number">  Register Number</string>
+    <string name="password">  Password</string>
+    <string name="Password">  Password</string>
+    <string name="register_number">  Register Number</string>
+    <string name="login">login</string>
+    <string name="REGISTERNUMBER">  Register number</string>
+    <string name="teacher_id">Teacher ID</string>
+    <string name="teacher_login">Teacher Login</string>
+    <string name="Todo">TODO</string>
+    <string name="free">free</string>
+    <string name="done">done</string>
+    <string name="monday">MONDAY</string>
+
+    //string array for the dropdown
+    <string-array name="slots">
+        <item>SELECT THE HOUR</item>
+        <item>9:00-9:50am</item>
+        <item>10:00-10:50am</item>
+        <item>11:00-11:50am</item>
+        <item>12:00-12:50am</item>
+    </string-array>
+</resources>

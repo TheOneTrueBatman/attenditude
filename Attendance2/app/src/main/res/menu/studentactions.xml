@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/logout"
+        android:title="logout"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/over"
+        android:title="over"
+        android:icon="@drawable/collegelogo"
+        app:showAsAction="always"/>
+</menu>

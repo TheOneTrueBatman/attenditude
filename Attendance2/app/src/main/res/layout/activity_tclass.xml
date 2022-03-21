@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00003b"
+    tools:context=".tclass">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00003b"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/MyOverflowButtonStyle"
+        app:subtitleTextColor="#FFFFFF"
+        app:titleTextColor="#FFFFFF" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/loginCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        app:cardBackgroundColor="#2196F3"
+        app:cardCornerRadius="25dp">
+        <Button
+            android:id="@+id/sy"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#2196F3"
+            android:fontFamily="@font/startrek"
+            android:text="SYMCS"
+            android:textSize="30dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/hourcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/loginCard"
+        android:layout_gravity="center_vertical|center_horizontal"
+        app:cardBackgroundColor="#2196F3"
+        app:cardCornerRadius="25dp">
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+
+            android:entries="@array/slots"
+            android:backgroundTint="#2196F3"
+            android:fontFamily="@font/startrek"
+            android:spinnerMode="dialog"
+            android:textSize="30dp">
+        </Spinner>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dateCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/hourcard"
+        android:layout_gravity="center_vertical|center_horizontal"
+        app:cardBackgroundColor="#2196F3"
+        app:cardCornerRadius="25dp">
+        <TextView
+            android:id="@+id/date"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#2196F3"
+            android:fontFamily="@font/startrek"
+            android:hint="CHOOSE THE DATE"
+            android:textSize="30dp">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

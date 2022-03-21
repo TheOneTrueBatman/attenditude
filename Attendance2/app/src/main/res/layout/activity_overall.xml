@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#00003b"
+    android:isScrollContainer="true"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context=".overall">
+
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/startrek"
+        android:paddingTop="15dp"
+        android:text="SUBJECT-WISE ATTENDANCE RECORD"
+        android:textAlignment="center"
+        android:textColor="#03a9f4"
+        android:textSize="30sp"></TextView>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+
+    <TableRow android:background="#03a9f4" android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:fontFamily="@font/startrek"
+            android:textAlignment="center"
+            android:textColor="#00003b"
+            android:text="Subject" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00003b"
+            android:fontFamily="@font/startrek"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="Total hours" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/startrek"
+            android:textAlignment="center"
+            android:textColor="#00003b"
+            android:text="Attended hours" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/startrek"
+            android:textAlignment="center"
+            android:textColor="#00003b"
+            android:text="Overall Percentage" />
+    </TableRow>
+    <TableRow android:background="#AEE1F8" android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:fontFamily="@font/startrek"
+            android:textAlignment="center"
+            android:textColor="#00003b"
+            android:text="Data Warehouse and Data Mining" />
+
+        <TextView
+            android:id="@+id/tot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="....."
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+
+        <TextView
+            android:id="@+id/attend1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="....."
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+
+        <TextView
+            android:id="@+id/percent1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="....."
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+    </TableRow>
+    <TableRow android:background="#AEE1F8" android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:fontFamily="@font/startrek"
+            android:textAlignment="center"
+            android:textColor="#00003b"
+            android:text="Mobile Communication" />
+
+        <TextView
+            android:id="@+id/tot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="....."
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+
+        <TextView
+            android:id="@+id/attend2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="....."
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+
+        <TextView
+            android:id="@+id/percent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="....."
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+    </TableRow>
+    <TableRow android:background="#AEE1F8" android:padding="10dp">
+
+        <TextView
+            android:id="@+id/elective"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:fontFamily="@font/startrek"
+            android:text="Elective"
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+
+        <TextView
+            android:id="@+id/tot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="....."
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+
+        <TextView
+            android:id="@+id/attend3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="....."
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+
+        <TextView
+            android:id="@+id/percent3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="....."
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+    </TableRow>
+    <TableRow android:background="#AEE1F8" android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:fontFamily="@font/startrek"
+            android:textAlignment="center"
+            android:textColor="#00003b"
+            android:text="Total" />
+
+        <TextView
+            android:id="@+id/tot4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="....."
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+
+        <TextView
+            android:id="@+id/attend4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="....."
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+
+        <TextView
+            android:id="@+id/percent4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="....."
+            android:textAlignment="center"
+            android:textColor="#00003b" />
+    </TableRow>
+
+</TableLayout>
+
